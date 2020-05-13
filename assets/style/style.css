@@ -92,10 +92,16 @@ video {
 }
 
 .top-left-items {
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-content: baseline;
+}
+
+.menu-bar {
+    border-bottom: 2px solid #e2e2e2;
+    height: 50px;
 }
 
 .header-container {
@@ -111,8 +117,12 @@ video {
     background-color: white;
 }
 
-.fas.fa-bars{margin-left: 15px;}
+.fas.fa-bars {
+    margin-left: 15px;
+}
+
 .search-label {
+    margin-top: 10px;
     margin: 20px;
 }
 
@@ -122,17 +132,18 @@ video {
 }
 
 .anchor-tag {
-    font-family:helvetica,arial,sans-serif;
+    font-family: helvetica, arial, sans-serif;
     margin: 20px;
     margin-left: 5px;
     align-self: center;
     text-decoration-line: none;
     color: rgb(15, 4, 4);
-    font-weight:bold;
+    font-weight: bold;
     font-size: 14px;
 }
 
 .newyork-logo {
+    height: 50px;
     width: 250px;
 }
 
@@ -154,6 +165,7 @@ video {
     font-weight: 700;
     height: 35px;
     width: 115px;
+    margin-top: 10px;
 }
 
 .login-btn {
@@ -165,5 +177,22 @@ video {
     font-weight: 700;
     height: 35px;
     width: 50px;
+    margin-top: 10px;
 }
 
+.main-tittle {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    justify-content: center;
+    font-size: 50px;
+    font-family: georgia, 'times new roman', times, serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.image-and-caption {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 535px;
+    width: 950px;
+}
