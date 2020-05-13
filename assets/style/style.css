@@ -111,19 +111,25 @@ video {
     background-color: white;
 }
 
+.fas.fa-bars{margin-left: 15px;}
 .search-label {
-    margin: 10px;
+    margin: 20px;
 }
 
 .btns-div {
-    margin: 10px;
+    margin: 20px;
     align-self: center;
 }
 
 .anchor-tag {
-    margin: 10px;
+    font-family:helvetica,arial,sans-serif;
+    margin: 20px;
+    margin-left: 5px;
     align-self: center;
     text-decoration-line: none;
+    color: rgb(15, 4, 4);
+    font-weight:bold;
+    font-size: 14px;
 }
 
 .newyork-logo {
@@ -140,25 +146,24 @@ video {
 
 .sub-btn {
     background-color: #567b95;
-    border-radius: 8px;
+    border-radius: 5px;
     border: 1px color rgb(50, 104, 145);
     color: rgb(255, 255, 255);
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-size: 11px;
     font-weight: 700;
-    height: 3rem;
-    width: 10rem;
+    height: 35px;
+    width: 115px;
 }
 
 .login-btn {
     background-color: #567b95;
-    border-radius: 8px;
+    border-radius: 5px;
     color: rgb(255, 255, 255);
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-size: 11px;
     font-weight: 700;
-    height: 3rem;
-    width: 5rem;
+    height: 35px;
+    width: 50px;
 }
 
-#search {}
