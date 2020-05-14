@@ -194,75 +194,133 @@ video {
     display: grid;
     grid-template-rows: repeat(2, auto);
     justify-content: center;
-
 }
 
-.main-image{width: 950px;
-height: 535px;
+.main-image {
+    width: 950px;
+    height: 535px;
 }
 
-.img-info{height: 60px;
+.img-info {
+    height: 60px;
     width: 720px;
-    display:block;
+    display: block;
     margin-top: 10px;
     margin-right: 20px;
 }
 
-.figcap-info{
-color: rgb(136, 136, 136);
-font-size:16px;
+.figcap-info {
+    color: rgb(136, 136, 136);
+    font-size: 16px;
 }
 
-.social-media-top{
-display: grid;
-grid-template-rows: repeat(2,auto);
-justify-content: center;
+.social-media-top {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    justify-content: center;
 }
 
-.social-media{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-width: 600px;
-height: 35px;
-margin-top: 20px;
-margin-bottom: 20px;
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+    height: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.real-icons{display: flex;
-flex-direction: row;
-
+.real-icons {
+    display: flex;
+    flex-direction: row;
 }
 
-.social-med{width:35px;
-height: 35px;
-padding: 5px;
+.social-med {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
 }
 
-li{list-style: none;}
-
-.by-span,.anchor-by{
-font-family: Arial, Helvetica, sans-serif;
-color: black;
-font-size: 15px;
-font-weight: 700;
-padding: 1px;
+li {
+    list-style: none;
 }
 
-.date{
-font-family: Arial, Helvetica, sans-serif;
-color:rgb(51, 51, 51);
-font-size: 15px;
+.by-span,
+.anchor-by {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 1px;
 }
 
-.article1-div{
-display: flex;
-flex-direction: column;
-    
-
+.date {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(51, 51, 51);
+    font-size: 15px;
 }
 
-.art-parag,.sub-article{ width: 600px;
-align-self: center;
-margin:15px}
+.article1-div {
+    display: flex;
+    flex-direction: column;
+}
 
+.art-parag,
+.sub-article {
+    width: 800px;
+    align-self: center;
+    margin: 15px;
+    line-height: 1.875rem;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sub-article {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.sub-article:before {
+    content: '';
+    width: 100px;
+    height: 2px;
+    background: rgb(218, 218, 218);
+    align-self: center;
+    bottom: -4px;
+    margin-bottom: 1.5rem;
+}
+
+.sub-article:after {
+    content: '';
+    width: 100px;
+    height: 2px;
+    background: rgb(218, 218, 218);
+    align-self: center;
+    bottom: -4px;
+    margin-top: 1.5rem;
+}
+
+.art-parag a {
+    color: rgb(50, 104, 145);
+}
+
+.sub-article a {
+    text-decoration: none;
+    color: rgb(50, 104, 145);
+}
+
+.the-theory-of-inflation {}
+
+.the-theory-of-inflation h4 {
+    font-style: italic;
+    font-size: 500px;
+    font-weight: bold;
+}
+
+.the-theory-of-inflation-images {
+    display: flex;
+    flex-direction: row;
+}
