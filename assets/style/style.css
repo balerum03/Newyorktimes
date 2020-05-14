@@ -220,10 +220,19 @@ video {
     justify-content: center;
 }
 
+.span-anchor{
+margin-top: 30px;
+}
+
+.span-anchor > a {text-decoration-line: none;}
+
+.anchor-by:hover > .overby { text-decoration-line: underline;}
+
 .social-media {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     width: 600px;
     height: 35px;
     margin-top: 20px;
@@ -312,15 +321,36 @@ li {
     color: rgb(50, 104, 145);
 }
 
-.the-theory-of-inflation {}
 
-.the-theory-of-inflation h4 {
-    font-style: italic;
-    font-size: 500px;
-    font-weight: bold;
+
+.the-theory-of-inflation {
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+    margin-left: 175px;
+    margin-right: 175px;
+    
 }
+
+.astro{
+margin-top: 5px;
+color: #666;
+font-size: 14px;
+font-family: Arial, Helvetica, sans-serif;}
 
 .the-theory-of-inflation-images {
     display: flex;
     flex-direction: row;
+}
+
+.inflation-tag{
+font-size: large;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.the-theory-of-inflation-list{
+display: grid;
+grid-template-rows: repeat(2,auto);
+grid-template-columns: repeat(4,auto);
+
 }
