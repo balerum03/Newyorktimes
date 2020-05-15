@@ -199,10 +199,14 @@ video {
 .main-image{
     width: 950px;
     height: 535px;
-    
 }
 
-.frame-cont{width: 800px;}
+.frame-cont .frame-cap{
+    display:flex;
+    width: 800px;
+    justify-content:center;
+    }
+
 .img-info{
     height: 60px;
     width: 720px;
@@ -360,10 +364,28 @@ justify-content:center;
 
 hr.horiz{ border-top: 1px solid black;
     width: 60px;
-    margin-left: 165px;
+    margin-left: 450px;
     margin-top: 60px;
     }
 
-    .author{margin-left: 165px;
-        margin-top: 20px;
-    font-size: 13px;}
+.author{
+ margin-left: 450px;
+ margin-top: 20px;
+ font-size: 13px;
+ font-weight:bold;
+ }
+
+.frame-cap
+{
+    align-content:center;
+    font-family:Georgia;
+    color: #888888;
+}
+.frame-cap b{
+    color: black;
+    font-size:1.2rem;
+}
+.article2{
+    display: flex;
+    flex-direction: column;
+}
