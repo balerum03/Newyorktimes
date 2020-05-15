@@ -220,17 +220,13 @@ video {
     justify-content: center;
 }
 
-.span-anchor {
-    margin-top: 30px;
+.span-anchor{
+margin-top: 30px;
 }
 
-.span-anchor>a {
-    text-decoration-line: none;
-}
+.span-anchor > a {text-decoration-line: none;}
 
-.anchor-by:hover>.overby {
-    text-decoration-line: underline;
-}
+.anchor-by:hover > .overby { text-decoration-line: underline;}
 
 .social-media {
     display: flex;
@@ -325,60 +321,42 @@ li {
     color: rgb(50, 104, 145);
 }
 
-.the-theory-of-inflation {
-    display: grid;
-    grid-template-rows: repeat(2, auto);
-    margin-left: 175px;
-    margin-right: 175px;
+
+
+.astro{width: 945px;}
+
+.inflation-tag{
+font-size: large;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
 }
 
-.astro {
-    margin-top: 5px;
-    color: #666;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-}
 
-.the-theory-of-inflation-images {
-    display: flex;
-    flex-direction: row;
-    margin-left: 12rem;
-    margin-right: 12rem;
-    margin-bottom: 5rem;
-}
 
-.inflation-tag {
-    font-size: large;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.the-theory-of-inflation-list {
-    display: grid;
-    grid-template-rows: repeat(2, auto);
-    grid-template-columns: repeat(4, auto);
-}
-
-.the-theory-of-inflation-list figcaption {
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 25px;
-    color: black;
-}
-
-.the-theory-of-inflation-list span {
-    font-weight: bolder;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-}
-
-.the-theory p {
+.the-theory-of-inflation-images p {
     margin-top: 5rem;
     font-weight: 12;
     font-size: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#theory-images {
-    margin-right: 10px;
+.the-theory-of-inflation-images,.sub-theory-cont{width: 940px;}
+
+.img-sec1,.img-sec2{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 940px;
+
 }
+
+.caption-part1,.img-part1,.img-part2,.caption-part2{display: grid;
+grid-template-columns: repeat(4,auto);
+}
+
+.gallery{width: 230px;}
+
+.sub-theory-cont{display: grid;
+grid-template-rows: repeat(2,auto);
+margin-left: 150px;
+margin-right: 150px;}
