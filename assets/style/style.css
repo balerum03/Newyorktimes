@@ -269,7 +269,7 @@ li {
     font-size: 15px;
 }
 
-.article1-div {
+.article1-div,.art-result {
     display: flex;
     flex-direction: column;
 }
