@@ -190,18 +190,19 @@ video {
     font-style: italic;
 }
 
-.image-and-caption {
+.image-and-caption, .video-set {
     display: grid;
     grid-template-rows: repeat(2, auto);
     justify-content: center;
 }
 
-.main-image {
+.main-image{
     width: 950px;
     height: 535px;
 }
 
-.img-info {
+.frame-cont{width: 800px;}
+.img-info{
     height: 60px;
     width: 720px;
     display: block;
@@ -360,3 +361,4 @@ grid-template-columns: repeat(4,auto);
 grid-template-rows: repeat(2,auto);
 margin-left: 150px;
 margin-right: 150px;}
+
