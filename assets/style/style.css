@@ -190,7 +190,7 @@ video {
     font-style: italic;
 }
 
-.image-and-caption, .video-set {
+.image-and-caption, .video-set, .cosmos-img-div {
     display: grid;
     grid-template-rows: repeat(2, auto);
     justify-content: center;
@@ -271,7 +271,7 @@ li {
     font-size: 15px;
 }
 
-.article1-div,.art-result {
+.article1-div,.art-result,.article2 {
     display: flex;
     flex-direction: column;
 }
@@ -323,7 +323,9 @@ li {
     color: rgb(50, 104, 145);
 }
 
-
+.sky{font-weight: 700;
+font-family: Arial, Helvetica, sans-serif;
+color: #333;}
 
 .astro{width: 945px;}
 
@@ -331,7 +333,6 @@ li {
 font-size: large;
 font-weight: bold;
 font-family: Arial, Helvetica, sans-serif;
-<<<<<<< HEAD
 }
 
 
@@ -367,3 +368,6 @@ hr.horiz{ border-top: 1px solid black;
     .author{margin-left: 165px;
         margin-top: 20px;
     font-size: 13px;}
+
+    .cosmos-img,.fagcap-para{width: 600px;}
+
