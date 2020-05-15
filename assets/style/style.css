@@ -190,18 +190,20 @@ video {
     font-style: italic;
 }
 
-.image-and-caption {
+.image-and-caption, .video-set {
     display: grid;
     grid-template-rows: repeat(2, auto);
     justify-content: center;
 }
 
-.main-image {
+.main-image{
     width: 950px;
     height: 535px;
+    
 }
 
-.img-info {
+.frame-cont{width: 800px;}
+.img-info{
     height: 60px;
     width: 720px;
     display: block;
@@ -220,10 +222,19 @@ video {
     justify-content: center;
 }
 
+.span-anchor{
+margin-top: 30px;
+}
+
+.span-anchor > a {text-decoration-line: none;}
+
+.anchor-by:hover > .overby { text-decoration-line: underline;}
+
 .social-media {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     width: 600px;
     height: 35px;
     margin-top: 20px;
@@ -260,7 +271,7 @@ li {
     font-size: 15px;
 }
 
-.article1-div {
+.article1-div,.art-result {
     display: flex;
     flex-direction: column;
 }
@@ -312,15 +323,46 @@ li {
     color: rgb(50, 104, 145);
 }
 
-.the-theory-of-inflation {}
 
-.the-theory-of-inflation h4 {
-    font-style: italic;
-    font-size: 500px;
-    font-weight: bold;
+
+.astro{width: 945px;}
+
+.inflation-tag{
+font-size: large;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
 }
 
-.the-theory-of-inflation-images {
-    display: flex;
-    flex-direction: row;
+
+
+.the-theory-of-inflation-images p {
+    margin-top: 5rem;
+    font-weight: 12;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.caption-part1 span, .caption-part2 span{
+    font-weight:bold;
+}
+
+.caption-part1,.img-part1,.img-part2,.caption-part2{display: grid;
+grid-template-columns: repeat(4,auto);
+}
+
+.gallery{width: 230px;}
+
+.sub-theory-cont{display: grid;
+grid-template-rows: repeat(2,auto);
+justify-content:center;
+}
+
+hr.horiz{ border-top: 1px solid black;
+    width: 60px;
+    margin-left: 165px;
+    margin-top: 60px;
+    }
+
+    .author{margin-left: 165px;
+        margin-top: 20px;
+    font-size: 13px;}
