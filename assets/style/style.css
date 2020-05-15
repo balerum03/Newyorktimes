@@ -331,6 +331,7 @@ li {
 font-size: large;
 font-weight: bold;
 font-family: Arial, Helvetica, sans-serif;
+<<<<<<< HEAD
 }
 
 
@@ -366,3 +367,51 @@ hr.horiz{ border-top: 1px solid black;
     .author{margin-left: 165px;
         margin-top: 20px;
     font-size: 13px;}
+=======
+}
+
+
+
+.the-theory-of-inflation-images p {
+    margin-top: 5rem;
+    font-weight: 12;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.the-theory-of-inflation-images,.sub-theory-cont{
+    display:flex;
+    flex-direction:column;
+    justify-items:center;
+    align-items:center;
+    margin-left:30rem;
+    margin-right:30rem;
+    width: 940px;
+    }
+.caption-part1 span, .caption-part2 span{
+    font-weight:bold;
+}
+
+.caption-part1,.img-part1,.img-part2,.caption-part2{display: grid;
+grid-template-columns: repeat(4,auto);
+}
+
+.gallery{width: 230px;}
+
+.sub-theory-cont{display: grid;
+grid-template-rows: repeat(2,auto);
+justify-content:center;
+}
+
+.story-end{
+    display:flex;
+    position:relative;
+    font-weight:bold;
+    margin-left:30rem;
+    margin-right:60rem;
+    margin-top:5rem;
+    padding:0;
+    border:red;
+}
+
+>>>>>>> f9128876d07d90818db273591f661013fc73a630
