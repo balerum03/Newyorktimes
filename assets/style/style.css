@@ -104,13 +104,14 @@ video {
     height: 50px;
 }
 
-.header-container {
+.header-container,.footer-head{
     display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
     height: 40px;
     width: 100%;
 }
+
 
 .bar-btn {
     border: white;
@@ -142,16 +143,12 @@ video {
     font-size: 14px;
 }
 
-.newyork-logo {
+.newyork-logo,.footer-nyt-logo {
     height: 50px;
     width: 250px;
 }
 
-.header-anchor {
-    align-self: center;
-}
-
-.search-label {
+.header-anchor, .search-label {
     align-self: center;
 }
 
@@ -418,3 +415,15 @@ flex-direction: row;}
 height: 270px;}
 
 .im-geo{height: 180px;}
+
+.footer-cont{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-main,.item-sec,.footer-end{
+display: flex;
+flex-direction: row;
+}
+
+.footer-head > a{ text-decoration-line: none;}
