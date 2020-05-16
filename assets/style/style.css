@@ -327,7 +327,7 @@ li {
     color: rgb(50, 104, 145);
 }
 
-.sky{font-weight: 700;
+.sky,.sp-time{font-weight: 700;
 font-family: Arial, Helvetica, sans-serif;
 color: #333;}
 
@@ -358,7 +358,7 @@ grid-template-columns: repeat(4,auto);
 
 .gallery{width: 230px;}
 
-.sub-theory-cont{display: grid;
+.sub-theory-cont,.art-end-cont{display: grid;
 grid-template-rows: repeat(2,auto);
 justify-content:center;
 }
@@ -394,3 +394,27 @@ hr.horiz{ border-top: 1px solid black;
     display: flex;
     flex-direction: column;
 }
+
+.social-media-bottom{display: grid;
+grid-template-columns: repeat(2,auto);}
+
+.media-icon-cont{display: flex;
+flex-direction: row;
+
+}
+.main-geo{display: flex;
+flex-direction: row;}
+
+.more-in-space{
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+    grid-template-columns: repeat(3,auto);
+}
+
+.picks-home{display: flex;
+flex-direction: row;}
+
+.figure-size{width: 270px;
+height: 270px;}
+
+.im-geo{height: 180px;}
