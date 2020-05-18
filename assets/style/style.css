@@ -439,7 +439,7 @@
     }
     
     .more-in-space {
-        display: grid;
+        display:grid;
         grid-template-rows: repeat(2, auto);
         grid-template-columns: repeat(3, auto);
     }
@@ -448,11 +448,17 @@
         display: flex;
         flex-direction: row;
     }
+
+    .figure-size section{
+        text-align: right;
+    }
     
     .im-geo {
-        height: 250px;
-        width: 350px;
+        height: 180px;
+        width: 270px;
+        justify-self: end;
     }
+
     
     .footer-cont {
         border-top: 3px solid #e2e2e2;
@@ -531,15 +537,17 @@
         font-weight: bold;
         font-family: Arial, Helvetica, sans-serif;
         border-bottom: 1px solid #e2e2e2;
+        border-top:1px solid rgb(51, 51, 51) ;
     }
+
+    .aside-most-pop{margin-left: 20px;}
     
     .most-popular-articles h3 {
         font-size: 19px;
         font-weight: 500;
         line-height: 25PX;
         border-bottom: 1px solid #e2e2e2;
-        margin: 50px;
-        width: 500px;
+        
     }
     
     .most-popular-articles a {
@@ -547,10 +555,44 @@
         color: black;
     }
     
-    .figure-size section {
-        margin-left: 150px;
+    .figure-size a{
+      text-decoration-line: none;  
+      color: rgb(18,18,18);
+      font-weight: 500;
+      line-height: 22px;
+    }
+
+.figure-size section{
+color: rgb(153, 153, 153);
+font-size: 11px;
+font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .figure-size span{
+    color: rgb(153, 153, 153);
+    font-size: 13px;
     }
     
+    .figure-size{
+     display:grid;
+     grid-template-rows: repeat(4,auto);
+     width: 270px;
+     margin: 10px;
+    }
+
+    .hot-sec a{
+     text-decoration-line: none;
+     color: #333;
+     font-size:16px;
+     font-weight:700;
+     margin-left: 10px;
+    }
+
+    .hot-sec{border-top: 1px solid rgb(51, 51, 51);}
+
+
+
     .btn-comment {
         {
             background-color: #567b95;
