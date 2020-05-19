@@ -159,8 +159,6 @@ video {
     font-size: 14px;
     font-weight: bold;
     margin: 20px, 20px, 20px, 5px;
-    margin-left: 5px;
-    margin: 20px;
     text-decoration-line: none;
 }
 
@@ -271,8 +269,7 @@ video {
     flex-direction: row;
     height: 35px;
     justify-content: space-between;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin: 20px, 0, 20px, 0;
     width: 600px;
 }
 
@@ -593,8 +590,7 @@ hr.horiz {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     justify-content: space-around;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin: 20px, 0, 20px, 0;
     padding-bottom: 20px;
     padding-top: 20px;
 }
