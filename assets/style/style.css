@@ -124,8 +124,9 @@ video {
 }
 
 .footer-head {
-    display: flex;
-    justify-content: space-around;
+justify-content: space-between;
+display: grid;
+grid-template-columns: repeat(2,auto);
 }
 
 .newyork-logo {
@@ -484,6 +485,7 @@ hr.horiz {
 .main-geo {
     display: flex;
     flex-direction: row;
+    width:1200px;
 }
 
 .more-in-space {
@@ -520,6 +522,8 @@ hr.horiz {
     border-top: 3px solid #e2e2e2;
     display: grid;
     grid-template-rows: repeat(3, auto);
+    width: 1200px;
+    margin-left: 40px;
 }
 
 .footer-main,
@@ -527,8 +531,7 @@ hr.horiz {
 .footer-end {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-}
+    }
 
 .footer-main {
     margin-bottom: 80px;
@@ -571,6 +574,7 @@ hr.horiz {
 
 .subscribe-tittle {
     font-weight: 700;
+    font-size: 15px;
 }
 
 .more-NYT {
