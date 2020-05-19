@@ -112,8 +112,8 @@ video {
 
 .footer-nyt-logo {
     margin-left: 10px;
-    width: 185px;
-    height: 45px;
+    width: 184px;
+    height: 35px;
 }
 
 .header-container,
@@ -183,12 +183,23 @@ video {
     background-color: #567b95;
     border-radius: 5px;
     color: rgb(255, 255, 255);
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-family: helvetica, arial, sans-serif;
     font-size: 11px;
     font-weight: 700;
     height: 35px;
-    width: 50px;
+    width: 60px;
     margin-top: 10px;
+}
+
+.btn-coment {
+    background-color: #567b95;
+    height: 70%;
+    width: 100%;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
 
 .main-tittle {
@@ -268,8 +279,8 @@ video {
 }
 
 .social-med {
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     padding: 5px;
 }
 
@@ -452,6 +463,14 @@ hr.horiz {
 .social-media-bottom {
     display: grid;
     grid-template-columns: repeat(2, auto);
+    color: rgb(102, 102, 102);
+    width: 600px;
+    line-height: 1rem;
+    justify-self: center;
+    margin: 15px;
+    font-size: 0.75rem;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-items: end;
 }
 
 .media-icon-cont {
@@ -484,7 +503,7 @@ hr.horiz {
     flex-direction: row;
 }
 
-.figure-size section {
+.img-footer-author {
     text-align: right;
 }
 
@@ -546,7 +565,7 @@ hr.horiz {
     font-weight: 700;
 }
 
-#more-NYT {
+.more-NYT {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: 700;
@@ -576,17 +595,15 @@ hr.horiz {
     text-decoration-line: underline;
 }
 
+.item-sec:hover>a {
+    text-decoration-line: underline;
+}
+
 .york-times {
     font-size: 10px;
 }
 
-.lenguage-and-apps {
-    height: 140px;
-    font-size: 10px;
-}
-
 .rate {
-    border-bottom: 1px solid #e2e2e2;
     font-size: 10px;
 }
 
@@ -595,6 +612,10 @@ hr.horiz {
     font-family: Arial, Helvetica, sans-serif;
     border-bottom: 1px solid #e2e2e2;
     border-top: 1px solid rgb(51, 51, 51);
+}
+
+.lenguage-and-apps {
+    border-top: 1px solid #e2e2e2;
 }
 
 .aside-most-pop {
@@ -636,7 +657,7 @@ hr.horiz {
     line-height: 22px;
 }
 
-.figure-size section {
+.img-footer-author {
     color: rgb(153, 153, 153);
     font-size: 11px;
     font-family: Arial, Helvetica, sans-serif;
@@ -659,7 +680,6 @@ hr.horiz {
     color: #333;
     font-size: 16px;
     font-weight: 700;
-    margin-left: 10px;
 }
 
 .editors-pick {
