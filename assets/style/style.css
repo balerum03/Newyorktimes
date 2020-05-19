@@ -111,18 +111,21 @@ video {
 }
 
 .footer-nyt-logo {
-    margin-left: 10px;
     width: 184px;
     height: 35px;
 }
 
-.header-container,
-.footer-head {
+.header-container {
     display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
     height: 35px;
     width: 100%;
+}
+
+.footer-head {
+    display: flex;
+    justify-content: space-around;
 }
 
 .newyork-logo {
@@ -524,6 +527,11 @@ hr.horiz {
 .footer-end {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+
+.footer-main {
+    margin-bottom: 80px;
 }
 
 .footer-cont a {
@@ -603,16 +611,12 @@ hr.horiz {
     font-size: 10px;
 }
 
-
-
 .most-popular {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     border-bottom: 1px solid #e2e2e2;
     border-top: 1px solid rgb(51, 51, 51);
 }
-
-
 
 .aside-most-pop {
     margin-left: 20px;
@@ -659,20 +663,10 @@ hr.horiz {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-<<<<<<< HEAD
-    .hot-sec a{
-     text-decoration-line: none;
-     color: #333;
-     font-size:16px;
-     font-weight:700;
-     
-    }
-=======
 .figure-size span {
     color: rgb(153, 153, 153);
     font-size: 13px;
 }
->>>>>>> 288df88993b1fcfb4a5deef6aa3aaba72efc8adf
 
 .figure-size {
     display: grid;
@@ -695,4 +689,8 @@ hr.horiz {
 .hot-sec {
     padding-top: 20px;
     border-top: 1px solid rgb(51, 51, 51);
+}
+
+.lenguage-and-apps {
+    border-top: 1px solid #e2e2e2;
 }
