@@ -85,7 +85,6 @@ var,
 video {
     border: 0;
     font-size: 100%;
-    font: inherit;
     margin: 0;
     padding: 0;
     vertical-align: baseline;
@@ -145,8 +144,7 @@ video {
 }
 
 .search-label {
-    margin-top: 10px;
-    margin: 20px;
+    margin: 10px, 20px, 20px, 20px;
 }
 
 .btns-div {
@@ -160,6 +158,7 @@ video {
     font-family: helvetica, arial, sans-serif;
     font-size: 14px;
     font-weight: bold;
+    margin: 20px, 20px, 20px, 5px;
     margin-left: 5px;
     margin: 20px;
     text-decoration-line: none;
@@ -443,7 +442,7 @@ hr.horiz {
 .author {
     color: #333;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: .875rem;
+    font-size: 0.875rem;
     margin-top: 15px;
 }
 
@@ -452,16 +451,16 @@ hr.horiz {
     width: 600px;
 }
 
-.frame-cap {
-    align-content: center;
-    color: #888888;
-    font-family: Georgia;
-    width: 600px;
-}
-
 .frame-cap b {
     color: black;
     font-size: 1.2rem;
+}
+
+.frame-cap {
+    align-content: center;
+    color: #888;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 600px;
 }
 
 .social-media-bottom {
@@ -506,10 +505,6 @@ hr.horiz {
 .picks-home {
     display: flex;
     flex-direction: row;
-}
-
-.img-footer-author {
-    text-align: right;
 }
 
 .im-geo {
@@ -594,7 +589,7 @@ hr.horiz {
 .footer-end {
     border-bottom: 1px solid #e2e2e2;
     border-top: 1px solid #e2e2e2;
-    color: #666666;
+    color: #666;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     justify-content: space-around;
@@ -602,6 +597,25 @@ hr.horiz {
     margin-top: 20px;
     padding-bottom: 20px;
     padding-top: 20px;
+}
+
+.most-popular-articles a {
+    color: black;
+    text-decoration-line: none;
+}
+
+.figure-size a {
+    color: rgb(18, 18, 18);
+    font-weight: 500;
+    line-height: 22px;
+    text-decoration-line: none;
+}
+
+.hot-sec a {
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: none;
 }
 
 .footer-list:hover>a {
@@ -640,14 +654,9 @@ hr.horiz {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 19px;
     font-weight: 500;
-    line-height: 25PX;
+    line-height: 25px;
     padding-bottom: 20px;
     padding-top: 20px;
-}
-
-.most-popular-articles a {
-    color: black;
-    text-decoration-line: none;
 }
 
 .most-popular-articles {
@@ -655,14 +664,8 @@ hr.horiz {
     flex-direction: column;
 }
 
-.figure-size a {
-    color: rgb(18, 18, 18);
-    font-weight: 500;
-    line-height: 22px;
-    text-decoration-line: none;
-}
-
 .img-footer-author {
+    text-align: right;
     color: rgb(153, 153, 153);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 11px;
@@ -678,13 +681,6 @@ hr.horiz {
     grid-template-rows: repeat(4, auto);
     margin: 10px;
     width: 270px;
-}
-
-.hot-sec a {
-    color: #333;
-    font-size: 16px;
-    font-weight: 700;
-    text-decoration-line: none;
 }
 
 .editors-pick {
