@@ -518,8 +518,8 @@ hr.horiz {
     width: 1200px;
 }
 
-.footer-main,
-.item-sec,
+
+.item-sec,.footer-main,
 .footer-end {
     display: flex;
     flex-direction: row;
