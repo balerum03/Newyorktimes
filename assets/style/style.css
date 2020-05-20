@@ -83,26 +83,25 @@ u,
 ul,
 var,
 video {
-    margin: 0;
-    padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
+    margin: 0;
+    padding: 0;
     vertical-align: baseline;
 }
 
 * {
-    -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 .top-left-items {
-    margin-top: 10px;
+    align-content: baseline;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-content: baseline;
+    margin-top: 10px;
 }
 
 .menu-bar {
@@ -111,33 +110,33 @@ video {
 }
 
 .footer-nyt-logo {
-    width: 184px;
     height: 35px;
+    width: 184px;
 }
 
 .header-container {
     display: inline-flex;
     flex-direction: row;
-    justify-content: space-between;
     height: 35px;
+    justify-content: space-between;
     width: 100%;
 }
 
 .footer-head {
-justify-content: space-between;
-display: grid;
-grid-template-columns: repeat(2,auto);
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
 }
 
 .newyork-logo {
+    height: 27px;
     margin-top: 12px;
     width: 195px;
-    height: 27px;
 }
 
 .bar-btn {
-    border: white;
     background-color: white;
+    border: white;
 }
 
 .fas.fa-bars {
@@ -145,24 +144,22 @@ grid-template-columns: repeat(2,auto);
 }
 
 .search-label {
-    margin-top: 10px;
-    margin: 20px;
+    margin: 10px, 20px, 20px, 20px;
 }
 
 .btns-div {
-    margin: 20px;
     align-self: center;
+    margin: 20px;
 }
 
 .anchor-tag {
-    font-family: helvetica, arial, sans-serif;
-    margin: 20px;
-    margin-left: 5px;
     align-self: center;
-    text-decoration-line: none;
     color: rgb(15, 4, 4);
-    font-weight: bold;
+    font-family: helvetica, arial, sans-serif;
     font-size: 14px;
+    font-weight: bold;
+    margin: 20px, 20px, 20px, 5px;
+    text-decoration-line: none;
 }
 
 .header-anchor,
@@ -179,8 +176,8 @@ grid-template-columns: repeat(2,auto);
     font-size: 11px;
     font-weight: 700;
     height: 35px;
-    width: 115px;
     margin-top: 10px;
+    width: 115px;
 }
 
 .login-btn {
@@ -191,29 +188,29 @@ grid-template-columns: repeat(2,auto);
     font-size: 11px;
     font-weight: 700;
     height: 35px;
-    width: 60px;
     margin-top: 10px;
+    width: 60px;
 }
 
 .btn-coment {
     background-color: #567b95;
-    height: 70%;
-    width: 100%;
     border-radius: 5px;
-    text-decoration: none;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
+    height: 70%;
+    text-decoration: none;
+    width: 100%;
 }
 
 .main-tittle {
     display: grid;
+    font-family: georgia, 'times new roman', times, serif;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
     grid-template-rows: repeat(2, auto);
     justify-content: center;
-    font-size: 50px;
-    font-family: georgia, 'times new roman', times, serif;
-    font-weight: bold;
-    font-style: italic;
 }
 
 .image-and-caption,
@@ -225,22 +222,29 @@ grid-template-columns: repeat(2,auto);
 }
 
 .main-image {
-    width: 950px;
     height: 535px;
+    width: 950px;
+}
+
+.frame-cap {
+    align-content: center;
+    color: #888;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 600px;
 }
 
 .frame-cont .frame-cap {
     display: flex;
-    width: 800px;
     justify-content: center;
+    width: 800px;
 }
 
 .img-info {
-    height: 60px;
-    width: 720px;
     display: block;
-    margin-top: 10px;
+    height: 60px;
     margin-right: 20px;
+    margin-top: 10px;
+    width: 720px;
 }
 
 .figcap-info {
@@ -258,23 +262,22 @@ grid-template-columns: repeat(2,auto);
     margin-top: 30px;
 }
 
-.span-anchor>a {
+.span-anchor > a {
     text-decoration-line: none;
 }
 
-.anchor-by:hover>.overby {
+.anchor-by :hover > .overby {
     text-decoration-line: underline;
 }
 
 .social-media {
+    align-items: center;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 600px;
     height: 35px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    justify-content: space-between;
+    margin: 20px, 0, 20px, 0;
+    width: 600px;
 }
 
 .real-icons {
@@ -283,9 +286,9 @@ grid-template-columns: repeat(2,auto);
 }
 
 .social-med {
-    width: 45px;
     height: 45px;
     padding: 5px;
+    width: 45px;
 }
 
 li {
@@ -294,16 +297,16 @@ li {
 
 .by-span,
 .anchor-by {
-    font-family: Arial, Helvetica, sans-serif;
     color: black;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: 700;
     padding: 1px;
 }
 
 .date {
-    font-family: Arial, Helvetica, sans-serif;
     color: rgb(51, 51, 51);
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
 
@@ -316,22 +319,22 @@ li {
 
 .art-parag,
 .sub-article {
-    width: 600px;
     align-self: center;
-    margin: 15px;
-    line-height: 1.875rem;
-    font-size: 1.5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+    margin: 15px;
+    width: 600px;
 }
 
 .art-end {
     color: rgb(102, 102, 102);
-    width: 600px;
-    line-height: 1rem;
-    justify-self: center;
-    margin: 15px;
-    font-size: 0.75rem;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    justify-self: center;
+    line-height: 1rem;
+    margin: 15px;
+    width: 600px;
 }
 
 .art-end a {
@@ -341,29 +344,29 @@ li {
 .sub-article {
     display: flex;
     flex-direction: column;
-    text-align: center;
     font-size: 1rem;
     font-weight: bold;
+    text-align: center;
 }
 
-.sub-article:before {
-    content: '';
-    width: 100px;
-    height: 2px;
-    background: rgb(218, 218, 218);
+.sub-article::before {
     align-self: center;
+    background: rgb(218, 218, 218);
     bottom: -4px;
+    content: '';
+    height: 2px;
     margin-bottom: 1.5rem;
+    width: 100px;
 }
 
-.sub-article:after {
-    content: '';
-    width: 100px;
-    height: 2px;
-    background: rgb(218, 218, 218);
+.sub-article::after {
     align-self: center;
+    background: rgb(218, 218, 218);
     bottom: -4px;
+    content: '';
+    height: 2px;
     margin-top: 1.5rem;
+    width: 100px;
 }
 
 .art-parag a {
@@ -371,15 +374,15 @@ li {
 }
 
 .sub-article a {
-    text-decoration: none;
     color: rgb(50, 104, 145);
+    text-decoration: none;
 }
 
 .sky,
 .sp-time {
-    font-weight: 700;
-    font-family: Arial, Helvetica, sans-serif;
     color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
 }
 
 .astro {
@@ -387,16 +390,16 @@ li {
 }
 
 .inflation-tag {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .the-theory-of-inflation-images p {
-    margin-top: 5rem;
-    font-weight: 12;
-    font-size: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 12;
+    margin-top: 5rem;
 }
 
 .caption-part1 span,
@@ -422,8 +425,8 @@ li {
 }
 
 .gallery {
-    width: 230px;
     margin: 10px;
+    width: 230px;
 }
 
 .sub-theory-cont,
@@ -435,27 +438,20 @@ li {
 
 hr.horiz {
     border-top: 1px solid black;
-    width: 60px;
     margin-left: 0;
     margin-top: 50px;
+    width: 60px;
 }
 
 .author {
-    font-size: .875rem;
-    font-family: Arial, Helvetica, sans-serif;
     color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.875rem;
     margin-top: 15px;
 }
 
 .cosmos-img,
 .fagcap-para {
-    width: 600px;
-}
-
-.frame-cap {
-    align-content: center;
-    font-family: Georgia;
-    color: #888888;
     width: 600px;
 }
 
@@ -465,16 +461,16 @@ hr.horiz {
 }
 
 .social-media-bottom {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
     color: rgb(102, 102, 102);
-    width: 600px;
-    line-height: 1rem;
-    justify-self: center;
-    margin: 15px;
-    font-size: 0.75rem;
+    display: grid;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    grid-template-columns: repeat(2, auto);
     justify-items: end;
+    justify-self: center;
+    line-height: 1rem;
+    margin: 15px;
+    width: 600px;
 }
 
 .media-icon-cont {
@@ -485,17 +481,17 @@ hr.horiz {
 .main-geo {
     display: flex;
     flex-direction: row;
-    width:1200px;
+    width: 1200px;
 }
 
 .more-in-space {
-    padding-top: 10px;
     display: grid;
-    grid-template-rows: repeat(2, auto);
     grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    padding-top: 10px;
 }
 
-.more-in:hover>b {
+.more-in :hover > b {
     text-decoration-line: underline;
 }
 
@@ -508,14 +504,10 @@ hr.horiz {
     flex-direction: row;
 }
 
-.img-footer-author {
-    text-align: right;
-}
-
 .im-geo {
     height: 180px;
-    width: 270px;
     justify-self: end;
+    width: 270px;
 }
 
 .footer-cont {
@@ -531,16 +523,16 @@ hr.horiz {
 .footer-end {
     display: flex;
     flex-direction: row;
-    }
+}
 
 .footer-main {
     margin-bottom: 80px;
 }
 
 .footer-cont a {
-    text-decoration-line: none;
     color: black;
     font-size: 12px;
+    text-decoration-line: none;
 }
 
 .tittles {
@@ -566,18 +558,19 @@ hr.horiz {
 }
 
 .footer-subs li {
-    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 10px;
 }
 
 .subscribe-tittle {
-    font-weight: 700;
     font-size: 15px;
+    font-weight: 700;
 }
 
 .more-NYT {
+    align-self: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: 700;
@@ -591,23 +584,41 @@ hr.horiz {
 }
 
 .footer-end {
-    color: #666666;
-    justify-content: space-around;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-top: 1px solid #e2e2e2;
     border-bottom: 1px solid #e2e2e2;
-    padding-top: 20px;
+    border-top: 1px solid #e2e2e2;
+    color: #666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    justify-content: space-around;
+    margin: 20px, 0, 20px, 0;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
-.footer-list:hover>a {
+.most-popular-articles a {
+    color: black;
+    text-decoration-line: none;
+}
+
+.figure-size a {
+    color: rgb(18, 18, 18);
+    font-weight: 500;
+    line-height: 22px;
+    text-decoration-line: none;
+}
+
+.hot-sec a {
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: none;
+}
+
+.footer-list :hover > a {
     text-decoration-line: underline;
 }
 
-.item-sec:hover>a {
+.item-sec :hover > a {
     text-decoration-line: underline;
 }
 
@@ -616,10 +627,10 @@ hr.horiz {
 }
 
 .most-popular {
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
     border-bottom: 1px solid #e2e2e2;
     border-top: 1px solid rgb(51, 51, 51);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .aside-most-pop {
@@ -628,25 +639,20 @@ hr.horiz {
 }
 
 .most-popular h2 {
-    padding-top: 20px;
-    padding-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .most-popular-articles h3 {
+    border-bottom: 1px solid #e2e2e2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 19px;
     font-weight: 500;
-    line-height: 25PX;
-    border-bottom: 1px solid #e2e2e2;
-    padding-top: 20px;
+    line-height: 25px;
     padding-bottom: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.most-popular-articles a {
-    text-decoration-line: none;
-    color: black;
+    padding-top: 20px;
 }
 
 .most-popular-articles {
@@ -654,17 +660,11 @@ hr.horiz {
     flex-direction: column;
 }
 
-.figure-size a {
-    text-decoration-line: none;
-    color: rgb(18, 18, 18);
-    font-weight: 500;
-    line-height: 22px;
-}
-
 .img-footer-author {
+    text-align: right;
     color: rgb(153, 153, 153);
-    font-size: 11px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
 }
 
 .figure-size span {
@@ -675,15 +675,8 @@ hr.horiz {
 .figure-size {
     display: grid;
     grid-template-rows: repeat(4, auto);
-    width: 270px;
     margin: 10px;
-}
-
-.hot-sec a {
-    text-decoration-line: none;
-    color: #333;
-    font-size: 16px;
-    font-weight: 700;
+    width: 270px;
 }
 
 .editors-pick {
@@ -691,10 +684,8 @@ hr.horiz {
 }
 
 .hot-sec {
-    padding-top: 20px;
     border-top: 1px solid rgb(51, 51, 51);
+    padding-top: 20px;
 }
 
-.lenguage-and-apps {
-    border-top: 1px solid #e2e2e2;
-}
+.lenguage-and-apps { border-top: 1px solid #e2e2e2; }
