@@ -522,8 +522,8 @@ hr.horiz {
     border-top: 3px solid #e2e2e2;
     display: grid;
     grid-template-rows: repeat(3, auto);
-    width: 1200px;
     margin-left: 40px;
+    width: 1200px;
 }
 
 .footer-main,
@@ -548,13 +548,13 @@ hr.horiz {
 }
 
 .item-sec ul {
-    margin-right: 50px;
-    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     font-weight: 500;
     height: 23px;
     line-height: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 50px;
+    width: 150px;
 }
 
 .item-sec li {
@@ -584,8 +584,8 @@ hr.horiz {
 }
 
 .footer-head a {
-    font-size: 12px;
     color: rgb(86, 123, 149);
+    font-size: 12px;
     font-weight: 400;
     line-height: 11px;
 }
