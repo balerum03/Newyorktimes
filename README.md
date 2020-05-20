@@ -2,7 +2,7 @@
 
 > This project consists of building an HTML document that matches the appearance of an article from The New York Times.
 
-![screenshot](Newyorktimes/assets/img/Screenshot_NYT.PNG)
+![screenshot](assets/img/Screenshot_NYT.PNG)
 
 
 
