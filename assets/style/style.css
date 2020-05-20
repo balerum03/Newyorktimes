@@ -226,6 +226,13 @@ video {
     width: 950px;
 }
 
+.frame-cap {
+    align-content: center;
+    color: #888;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 600px;
+}
+
 .frame-cont .frame-cap {
     display: flex;
     justify-content: center;
@@ -255,11 +262,11 @@ video {
     margin-top: 30px;
 }
 
-.span-anchor>a {
+.span-anchor > a {
     text-decoration-line: none;
 }
 
-.anchor-by:hover>.overby {
+.anchor-by :hover > .overby {
     text-decoration-line: underline;
 }
 
@@ -342,7 +349,7 @@ li {
     text-align: center;
 }
 
-.sub-article:before {
+.sub-article::before {
     align-self: center;
     background: rgb(218, 218, 218);
     bottom: -4px;
@@ -352,7 +359,7 @@ li {
     width: 100px;
 }
 
-.sub-article:after {
+.sub-article::after {
     align-self: center;
     background: rgb(218, 218, 218);
     bottom: -4px;
@@ -453,13 +460,6 @@ hr.horiz {
     font-size: 1.2rem;
 }
 
-.frame-cap {
-    align-content: center;
-    color: #888;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 600px;
-}
-
 .social-media-bottom {
     color: rgb(102, 102, 102);
     display: grid;
@@ -491,7 +491,7 @@ hr.horiz {
     padding-top: 10px;
 }
 
-.more-in:hover>b {
+.more-in :hover > b {
     text-decoration-line: underline;
 }
 
@@ -614,11 +614,11 @@ hr.horiz {
     text-decoration-line: none;
 }
 
-.footer-list:hover>a {
+.footer-list :hover > a {
     text-decoration-line: underline;
 }
 
-.item-sec:hover>a {
+.item-sec :hover > a {
     text-decoration-line: underline;
 }
 
@@ -690,14 +690,4 @@ hr.horiz {
 
 .lenguage-and-apps {
     border-top: 1px solid #e2e2e2;
-}
-
-@media all and (min-width: 670px) {
-    .header-container {
-        display: inline-flex;
-        flex-direction: row;
-        height: 35px;
-        justify-content: space-between;
-        width: 100%;
-    }
 }
