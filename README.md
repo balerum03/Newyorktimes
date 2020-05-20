@@ -14,17 +14,17 @@
 
 ## Authors
 
-👤 **Author1**
+👤 Adan Fernandez Bonilla.
 
 - Github: @balerum03
 - Twitter: @balerum03
 - Linkedin: https://www.linkedin.com/in/adan-fernandez-bonilla-4560831a5                                          \
  
-👤 **Author2**
+👤 Adesoji Adewumi
 
-- Github: @Shaqri
-- Twitter: @VictorGonbu
-- Linkedin: https://www.linkedin.com/in/victor-manuel-gonzalez-buitrago-8704731a5/
+- Github: @AdesojiCodeMaster
+- Twitter: @CodeMas22665735
+- Linkedin: https://www.linkedin.com/in/adesoji-adewumi-7752aba5
 
 ## 🤝 Contributing
 
