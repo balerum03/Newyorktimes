@@ -112,6 +112,7 @@ video {
 .footer-nyt-logo {
     height: 35px;
     width: 184px;
+    margin-left: 10px;
 }
 
 .header-container {
@@ -126,7 +127,7 @@ video {
     display: grid;
     grid-template-columns: repeat(2, auto);
     justify-content: space-between;
-    margin-left: 60px;
+    
 }
 
 .newyork-logo {
@@ -515,6 +516,7 @@ hr.horiz {
     border-top: 3px solid #e2e2e2;
     display: grid;
     grid-template-rows: repeat(3, auto);
+    justify-content: center;
     
 }
 
@@ -522,7 +524,7 @@ hr.horiz {
 .footer-main {
     display: grid;
     grid-template-columns: repeat(2,auto);
-    margin-left: 15px;
+    
 }
 
 .footer-cont a {
@@ -534,6 +536,7 @@ hr.horiz {
 .tittles {
     font-weight: bolder;
 }
+#footer-sep{margin-right: 35px;}
 
 .item-sec ul {
     font-family: Arial, Helvetica, sans-serif;
@@ -552,10 +555,7 @@ hr.horiz {
     display: grid;
     grid-template-columns: repeat(6,auto);
     justify-content:center ;
-    margin-left: 15px;
-    
-
-}
+   }
 
 .footer-subs {
     border-left: 1px solid #e2e2e2;
@@ -600,7 +600,7 @@ hr.horiz {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     justify-content: space-around;
-    margin: 20px 0 20px 50px;
+    margin: 20px 0 20px 0px;
     padding-bottom: 20px;
     padding-top: 20px;
 }
