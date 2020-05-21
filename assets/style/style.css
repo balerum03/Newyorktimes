@@ -514,7 +514,7 @@ hr.horiz {
     border-top: 3px solid #e2e2e2;
     display: grid;
     grid-template-rows: repeat(3, auto);
-    margin-left: 40px;
+    margin: 25px 0 0 350px;
     width: 1200px;
 }
 
@@ -591,7 +591,7 @@ hr.horiz {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     justify-content: space-around;
-    margin: 20px, 0, 20px, 0;
+    margin: 20px 0 20px 0;
     padding-bottom: 20px;
     padding-top: 20px;
 }
@@ -689,4 +689,6 @@ hr.horiz {
     padding-top: 20px;
 }
 
-.lenguage-and-apps { border-top: 1px solid #e2e2e2; }
+.lenguage-and-apps {
+    border-top: 1px solid #e2e2e2;
+}
