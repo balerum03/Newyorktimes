@@ -126,7 +126,7 @@ video {
     display: grid;
     grid-template-columns: repeat(2, auto);
     justify-content: space-between;
-    margin-left: 50px;
+    margin-left: 55px;
 }
 
 .newyork-logo {
