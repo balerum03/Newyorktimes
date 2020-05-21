@@ -514,7 +514,7 @@ hr.horiz {
     border-top: 3px solid #e2e2e2;
     display: grid;
     grid-template-rows: repeat(3, auto);
-    margin: 25px 0 0 350px;
+    margin: 25px 40px 0 40px;
     width: 1200px;
 }
 
