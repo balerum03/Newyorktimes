@@ -126,6 +126,7 @@ video {
     display: grid;
     grid-template-columns: repeat(2, auto);
     justify-content: space-between;
+    margin-left: 50px;
 }
 
 .newyork-logo {
@@ -514,20 +515,14 @@ hr.horiz {
     border-top: 3px solid #e2e2e2;
     display: grid;
     grid-template-rows: repeat(3, auto);
-    margin: 25px 40px 0 40px;
-    width: 1200px;
+    
 }
 
-.item-sec,
-.footer-main,
-.footer-end {
-    display: flex;
-    flex-direction: row;
-}
 
 .footer-main {
-    width: 1200px;
-    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    margin-left: 15px;
 }
 
 .footer-cont a {
@@ -553,9 +548,17 @@ hr.horiz {
 .item-sec li {
     margin: 10px;
 }
+.item-sec{
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    justify-content:center ;
+    
+
+}
 
 .footer-subs {
     border-left: 1px solid #e2e2e2;
+    height: 400px;
 }
 
 .footer-subs li {
@@ -584,14 +587,19 @@ hr.horiz {
     line-height: 11px;
 }
 
+
+
 .footer-end {
+    
     border-bottom: 1px solid #e2e2e2;
     border-top: 1px solid #e2e2e2;
     color: #666;
+    display: flex;
+    flex-direction: row;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     justify-content: space-around;
-    margin: 20px 0 20px 0;
+    margin: 20px 0 20px 50px;
     padding-bottom: 20px;
     padding-top: 20px;
 }
