@@ -126,7 +126,7 @@ video {
     display: grid;
     grid-template-columns: repeat(2, auto);
     justify-content: space-between;
-    margin-left: 55px;
+    margin-left: 60px;
 }
 
 .newyork-logo {
@@ -552,6 +552,7 @@ hr.horiz {
     display: grid;
     grid-template-columns: repeat(6,auto);
     justify-content:center ;
+    margin-left: 15px;
     
 
 }
