@@ -695,4 +695,34 @@ hr.horiz {
     padding-top: 20px;
 }
 
-.lenguage-and-apps { border-top: 1px solid #e2e2e2; }
+.lenguage-and-apps {
+    border-top: 1px solid #e2e2e2;
+}
+
+.sticky-footer {
+    align-self: center;
+    background: white;
+    border-top: 2px solid Black;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: bold;
+    height: 55px;
+    justify-content: center;
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+}
+
+.sticky-footer p {
+    align-self: center;
+    text-align: center;
+}
+
+.sticky-footer a {
+    align-self: center;
+    color: Black;
+    text-decoration: none;
+}
