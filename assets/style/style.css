@@ -630,6 +630,7 @@ hr.horiz {
     align-self: center;
     color: Black;
     text-decoration: none;
+    margin-left: 200px;
 }
 
 .footer-list :hover > a {
