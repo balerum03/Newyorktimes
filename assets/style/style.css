@@ -520,7 +520,7 @@ hr.horiz {
 
 .footer-main {
     display: grid;
-    grid-template-columns: repeat(2,auto);
+    grid-template-columns: repeat(2, auto);
 }
 
 .footer-cont a {
@@ -532,7 +532,10 @@ hr.horiz {
 .tittles {
     font-weight: bolder;
 }
-#footer-sep{margin-right: 35px;}
+
+#footer-sep {
+  margin-right: 35px;
+}
 
 .item-sec ul {
     font-family: Arial, Helvetica, sans-serif;
@@ -546,12 +549,12 @@ hr.horiz {
 
 .item-sec li {
     margin: 10px;
- }
+}
 
 .item-sec {
     display: grid;
-    grid-template-columns: repeat(6,auto);
-    justify-content:center ;
+    grid-template-columns: repeat(6, auto);
+    justify-content: center;
 }
 
 .footer-subs {
@@ -594,7 +597,7 @@ hr.horiz {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     justify-content: space-around;
-    margin: 20px 0 20px 0px;
+    margin: 20px 0 20px 0;
     padding-bottom: 20px;
     padding-top: 20px;
 }
