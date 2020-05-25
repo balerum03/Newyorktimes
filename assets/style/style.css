@@ -104,11 +104,6 @@ video {
     margin-top: 10px;
 }
 
-.menu-bar {
-    border-bottom: 2px solid #e2e2e2;
-    height: 50px;
-}
-
 .footer-nyt-logo {
     height: 35px;
     width: 184px;
@@ -116,10 +111,14 @@ video {
 }
 
 .header-container {
+    background: white;
+    border-bottom: 2px solid #e2e2e2;
     display: inline-flex;
     flex-direction: row;
     height: 35px;
+    height: 60px;
     justify-content: space-between;
+    position: fixed;
     width: 100%;
 }
 
