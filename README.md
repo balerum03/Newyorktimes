@@ -24,7 +24,7 @@
 
 - Github: @AdesojiCodeMaster
 - Twitter: @CodeMas22665735
-- Linkedin: https://www.linkedin.com/in/adesoji-adewumi-7752aba5
+- Linkedin: https://www.linkedin.com/in/adesoji-adewumi
 
 ## 🤝 Contributing
 
